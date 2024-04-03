@@ -1,7 +1,3 @@
-# teebay
-
-# Teebay Application Development Report
-
 # Teebay - Django + React Project
 
 ## Setup Instructions
