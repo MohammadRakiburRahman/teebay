@@ -2,17 +2,34 @@
 
 # Teebay Application Development Report
 
-## Summary
+# Teebay - Django + React Project
 
-During the development of the Teebay application, I encountered a perplexing issue revolving around session inconsistency post-login. This issue significantly impeded the completion of frontend features despite making progress on the backend.
+## Setup Instructions
+
+1. *Navigate to Teebay folder*: cd teebay. 
+2. *Perform Migrations*: python manage.py migrate. 
+3. *Run Django Server*: python manage.py runserver. 
+4. *Navigate to Teebay Frontend*: cd teebay_frontend. 
+5. *Start React Development Server*: npm start.
+
+## Paths
+
+- *Login*: http://localhost:3000/login.
+- *Products*: http://localhost:3000/products.
+- *Register*: http://localhost:3000/register.
+
+
+## Development journey Summary
+
+Throughout the development of the Teebay application, I encountered a perplexing issue revolving around session inconsistency post-login. Despite making progress on the backend, the completion of frontend features was hindered due to the time-consuming nature of resolving this problem.
 
 ## Backend Progress
 
-Successfully implemented user registration and authentication functionalities on the backend. Additionally, backend logic for product management, including creation, updating, and deletion, was completed satisfactorily.
+I successfully implemented user registration and authentication functionalities on the backend. Additionally, backend logic for product management, encompassing creation, updating, and deletion, was completed satisfactorily.
 
 ## Frontend Incompleteness
 
-Unfortunately, crucial frontend components for buy/sell management, transaction listing, and product creation/updation remain unfinished. The persistent session inconsistency issue experienced during login directly impacted the completion of these frontend features.
+Unfortunately, frontend components crucial for buy/sell management, transaction listing, and product creation/updation remain unfinished. The persistent session inconsistency issue experienced during login directly impacted the completion of these frontend features.
 
 ## Session Inconsistency Issue
 
